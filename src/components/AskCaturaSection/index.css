@@ -1,0 +1,132 @@
+.ask-catura-section-container {
+  background: #ffffff;
+  border-radius: 10px;
+  width: 340px;
+}
+
+.ask-catura-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+}
+
+.ask-catura-section-heading {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #0f1729;
+}
+
+.ask-catura-social-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.ask-catura-mail-icon {
+  font-size: 14px;
+}
+
+.ask-catura-text {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #0f1729;
+}
+
+.ask-catura-care-down-icon {
+  font-size: 14px;
+  color: #0f8bfd;
+}
+
+.ask-catura-hr-line {
+  border-bottom: 1px solid #44486d1a;
+  padding: 0px;
+}
+
+.ask-catura-section-body {
+  padding: 0px 15px 10px 15px;
+}
+
+.ask-catura-section-bg-container {
+  background-image: url("https://res.cloudinary.com/srinivasvasamsetti/image/upload/v1733071565/sulq3wgi8ke0m12pcr5a.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 28vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ask-catura-greeting-template {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.ask-catura-buttons-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ask-copy-top-send-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0f8bfd;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 8px 10px;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.input-and-send-button-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.ask-input-element {
+  height: 40px;
+  border-radius: 8px;
+  padding-left: 10px;
+  background: #4c62920a;
+  border: 1px solid #4c62921a;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.ask-send-fast-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background: #0f8bfd;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 12px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.send-fast-icon-img {
+  width: 16px;
+}
+
+@media screen and (min-width: 1200px) {
+  .ask-catura-section-container {
+    width: 100%;
+  }
+}

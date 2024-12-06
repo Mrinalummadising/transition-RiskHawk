@@ -1,0 +1,255 @@
+@keyframes slideIn {
+  from {
+    transform: translateX(100%); /* Start off-screen */
+  }
+  to {
+    transform: translateX(0); /* Fully visible */
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0); /* Fully visible */
+  }
+  to {
+    transform: translateX(100%); /* Move off-screen */
+  }
+}
+
+.nav-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.nav-content {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-website-heading {
+  color: #8a8ea6;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.nav-mobile-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-side-menu-bar {
+  font-size: 14px;
+  color: #44486d;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.nav-side-menu-bar:hover {
+  background-color: #ccc;
+}
+
+.hamburger-menu {
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.nav-desktop-container {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+.nav-home-icon-img {
+  font-size: 20px;
+  color: #676b89;
+}
+
+.processor-owner-hod-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #44486d;
+  background-color: #fccc55;
+  border-radius: 5px;
+  padding: 8px 15px;
+  gap: 10px;
+}
+
+.admin-button {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #ffffff;
+  background-color: #e553bc;
+  border-radius: 5px;
+  padding: 8px 15px;
+  gap: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.profile-name {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #8a8ea6;
+}
+
+.profile-pic-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.nav-settings-icon-img {
+  font-size: 20px;
+  color: #676b89;
+}
+
+.logout-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  padding: 0px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.nav-logout-icon-img {
+  font-size: 20px;
+  color: #676b89;
+}
+
+.logout-text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #8a8ea6;
+  margin: 0px;
+}
+
+.menu-bar-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: auto;
+  padding: 15px;
+  border-bottom-left-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: #242732;
+  transform: translateX(100%);
+  animation: none;
+}
+
+.menu-bar-container.open {
+  animation: slideIn 0.5s ease forwards;
+}
+
+.menu-bar-container.closed {
+  animation: slideOut 0.5s ease forwards;
+}
+
+.close-icon-img {
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #473535;
+  padding: 2px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.menu-bar-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.menu-profile-pic-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.menu-hr-line {
+  border: 1px solid #676b89;
+  width: 100%;
+}
+
+.menu-list-items-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.menu-icon-and-text {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.menu-icon-img {
+  font-size: 20px;
+  color: #8a8ea6;
+}
+
+.menu-icon-img:hover {
+  color: #ffffff;
+}
+
+.menu-item-text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #676b89;
+}
+
+.menu-item-text:hover {
+  color: #ffffff;
+}
+
+.menu-logout-button {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: transparent;
+  padding: 0px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+  .nav-mobile-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .nav-desktop-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .menu-bar-container {
+    display: none;
+  }
+}

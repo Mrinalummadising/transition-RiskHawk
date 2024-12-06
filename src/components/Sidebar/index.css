@@ -1,0 +1,64 @@
+.sidebar-main-container {
+  display: flex;
+  background-color: #0d1424;
+  height: 100vh;
+  width: 190px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.sidebar-risk-hawk-logo-img {
+  width: 100%;
+}
+
+.sidebar-options-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.option-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.option-list-icon-and-text {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.option-list-icon-img {
+  width: 24px;
+}
+
+.option-list-text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #9ea0b3;
+  line-height: 27px;
+}
+
+.queue-item {
+  color: #ffffff;
+}
+
+.fa-angle-right-icon-img {
+  font-size: 16px;
+  color: #9ea0b3;
+}
+
+@media screen and (max-width: 767px) {
+  .sidebar-main-container {
+    width: 22px;
+  }
+}

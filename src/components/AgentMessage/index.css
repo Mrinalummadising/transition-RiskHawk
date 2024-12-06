@@ -1,0 +1,54 @@
+.agent-messanger-container {
+  max-width: 420px;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.agent-messanger-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.agent-messanger-tabs-and-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  /* border: 1px solid blue; */
+}
+
+.agent-tabs-option-img {
+  width: 70%;
+}
+
+.escalate-button {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #ffffff;
+  background: #d74848;
+  padding: 10px 20px 10px 20px;
+  gap: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.messanger-conversion-img {
+  width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+  .agent-messanger-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .agent-messanger-container {
+    width: 100%;
+  }
+}
