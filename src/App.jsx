@@ -1,12 +1,12 @@
 import { useState } from "react";
-import ActionLauncherSection from "../../frontend/src/components/ActionLauncherSection/index";
-import AgentCardItem from "../../frontend/src/components/AgentCardItem/index";
-import AgentMessanger from "../../frontend/src/components/AgentMessage/index";
-import AgentsTopHeader from "../../frontend/src/components/AgentTopHeader/index";
-import AskCaturaSection from "../../frontend/src/components/AskCaturaSection/index";
-import CaseFavoriteSection from "../../frontend/src/components/CaseFavoriteSection/index";
-import Sidebar from "../../frontend/src/components/Sidebar/index";
-import Header from "../../frontend/src/components/Header/index";
+import ActionLauncherSection from "../../frontend/src/components/ActionLauncherSection";
+import AgentCardItem from "../../frontend/src/components/AgentCardItem";
+import AgentMessanger from "../../frontend/src/components/AgentMessage";
+import AgentsTopHeader from "../../frontend/src/components/AgentTopHeader";
+import AskCaturaSection from "../../frontend/src/components/AskCaturaSection";
+import CaseFavoriteSection from "../../frontend/src/components/CaseFavoriteSection";
+import Sidebar from "../../frontend/src/components/Sidebar";
+import Header from "../../frontend/src/components/Header";
 import "./App.css";
 
 function App() {
